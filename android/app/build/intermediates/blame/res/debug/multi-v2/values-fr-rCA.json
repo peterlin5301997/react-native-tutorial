@@ -21,24 +21,7 @@
                     }
                 },
                 {
-                    "source": "/Users/flatironaccesslabs/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-16.0.1.aar/23b044c0d8deba416421e3917044605a/res/values-fr-rCA/values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "251",
-                        "endColumns": "219",
-                        "endOffsets": "470"
-                    },
-                    "to": {
-                        "startLines": "37",
-                        "startColumns": "4",
-                        "startOffsets": "4100",
-                        "endColumns": "219",
-                        "endOffsets": "4315"
-                    }
-                },
-                {
-                    "source": "/Users/flatironaccesslabs/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/80be2aed97c902cb1c0b7c2e3f4f7266/res/values-fr-rCA/values.xml",
+                    "source": "/Users/flatironaccesslabs/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.1.0.aar/4c02db0b211b69796a24d423c11bfe19/res/values-fr-rCA/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -52,6 +35,23 @@
                         "startOffsets": "2879,2987,3199,3331,3442,3672,3807,3958,4320,4574,4688,4904,5042,5261,5470,5573,5667",
                         "endColumns": "107,211,131,110,229,134,150,141,253,113,215,137,218,208,102,93,112",
                         "endOffsets": "2982,3194,3326,3437,3667,3802,3953,4095,4569,4683,4899,5037,5256,5465,5568,5662,5775"
+                    }
+                },
+                {
+                    "source": "/Users/flatironaccesslabs/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-16.2.0.aar/b479f438de36617e0925de6ed1fd2bbe/res/values-fr-rCA/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "251",
+                        "endColumns": "219",
+                        "endOffsets": "470"
+                    },
+                    "to": {
+                        "startLines": "37",
+                        "startColumns": "4",
+                        "startOffsets": "4100",
+                        "endColumns": "219",
+                        "endOffsets": "4315"
                     }
                 },
                 {
