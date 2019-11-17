@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View, Button } from 'react-native';
 
 import FetchLocation from './components/FetchLocation.js';
 import UsersMap from './components/UsersMap.js';
@@ -8,6 +8,7 @@ export default class App extends React.Component {
 
   state = {
     userLocation: null,
+    userPlaces: [],
   }
 
   getUserLocation = () => {
@@ -36,12 +37,33 @@ export default class App extends React.Component {
     )
   }
 
+  getUserPlaces = () => {
+    fetch('https://react-native-tutorial-98e02.firebaseio.com/places.json',)
+      .then(res => res.json())
+      .then(data => {
+        const placesArray = [];
+        for (i in data) {
+          placesArray.push({
+            latitude: data[i].latitude,
+            longitude: data[i].longitude,
+            id: i
+          })
+        }
+        this.setState({ userPlaces: placesArray })
+      })
+      .catch(err => console.log(err))
+
+  }
+
   render() {
     return (
       <View style={styles.container}>
         <Text>Open up App.js to start working on your app!</Text>
+        <View style={{ marginBottom: 20 }}>
+          <Button title="Get User Places" onPress={this.getUserPlaces} />
+        </View>
         <FetchLocation title="Get Location" onGetLocation={this.getUserLocation} />
-        <UsersMap userLocation={this.state.userLocation} />
+        <UsersMap userLocation={this.state.userLocation} userPlaces={this.state.userPlaces} />
       </View>
     );
   }
