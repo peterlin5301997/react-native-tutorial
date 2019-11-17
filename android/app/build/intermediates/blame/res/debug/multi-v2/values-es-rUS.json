@@ -21,6 +21,23 @@
                     }
                 },
                 {
+                    "source": "/Users/flatironaccesslabs/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-16.2.0.aar/b479f438de36617e0925de6ed1fd2bbe/res/values-es-rUS/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "251",
+                        "endColumns": "204",
+                        "endOffsets": "455"
+                    },
+                    "to": {
+                        "startLines": "37",
+                        "startColumns": "4",
+                        "startOffsets": "4031",
+                        "endColumns": "204",
+                        "endOffsets": "4231"
+                    }
+                },
+                {
                     "source": "/Users/flatironaccesslabs/.gradle/caches/transforms-1/files-1.1/core-1.0.1.aar/05d68cccc5efa096bb9e58f5e4cb8ebf/res/values-es-rUS/values-es-rUS.xml",
                     "from": {
                         "startLines": "2",
@@ -38,7 +55,7 @@
                     }
                 },
                 {
-                    "source": "/Users/flatironaccesslabs/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/80be2aed97c902cb1c0b7c2e3f4f7266/res/values-es-rUS/values.xml",
+                    "source": "/Users/flatironaccesslabs/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.1.0.aar/4c02db0b211b69796a24d423c11bfe19/res/values-es-rUS/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -52,23 +69,6 @@
                         "startOffsets": "2838,2948,3146,3280,3390,3610,3743,3896,4236,4466,4577,4778,4913,5149,5357,5457,5549",
                         "endColumns": "109,197,133,109,219,132,152,134,229,110,200,134,235,207,99,91,106",
                         "endOffsets": "2943,3141,3275,3385,3605,3738,3891,4026,4461,4572,4773,4908,5144,5352,5452,5544,5651"
-                    }
-                },
-                {
-                    "source": "/Users/flatironaccesslabs/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-16.0.1.aar/23b044c0d8deba416421e3917044605a/res/values-es-rUS/values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "251",
-                        "endColumns": "204",
-                        "endOffsets": "455"
-                    },
-                    "to": {
-                        "startLines": "37",
-                        "startColumns": "4",
-                        "startOffsets": "4031",
-                        "endColumns": "204",
-                        "endOffsets": "4231"
                     }
                 }
             ]

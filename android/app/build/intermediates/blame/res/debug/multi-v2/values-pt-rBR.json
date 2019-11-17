@@ -4,24 +4,7 @@
             "outputFile": "/Users/flatironaccesslabs/Development/Module6/react-native-tutorial/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pt-rBR/values-pt-rBR.xml",
             "map": [
                 {
-                    "source": "/Users/flatironaccesslabs/.gradle/caches/transforms-1/files-1.1/core-1.0.1.aar/05d68cccc5efa096bb9e58f5e4cb8ebf/res/values-pt-rBR/values-pt-rBR.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "48",
-                        "startColumns": "4",
-                        "startOffsets": "5680",
-                        "endColumns": "100",
-                        "endOffsets": "5776"
-                    }
-                },
-                {
-                    "source": "/Users/flatironaccesslabs/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/80be2aed97c902cb1c0b7c2e3f4f7266/res/values-pt-rBR/values.xml",
+                    "source": "/Users/flatironaccesslabs/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.1.0.aar/4c02db0b211b69796a24d423c11bfe19/res/values-pt-rBR/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -38,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "/Users/flatironaccesslabs/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-16.0.1.aar/23b044c0d8deba416421e3917044605a/res/values-pt-rBR/values.xml",
+                    "source": "/Users/flatironaccesslabs/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-16.2.0.aar/b479f438de36617e0925de6ed1fd2bbe/res/values-pt-rBR/values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -52,6 +35,23 @@
                         "startOffsets": "4014",
                         "endColumns": "203",
                         "endOffsets": "4213"
+                    }
+                },
+                {
+                    "source": "/Users/flatironaccesslabs/.gradle/caches/transforms-1/files-1.1/core-1.0.1.aar/05d68cccc5efa096bb9e58f5e4cb8ebf/res/values-pt-rBR/values-pt-rBR.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "48",
+                        "startColumns": "4",
+                        "startOffsets": "5680",
+                        "endColumns": "100",
+                        "endOffsets": "5776"
                     }
                 },
                 {
