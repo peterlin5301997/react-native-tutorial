@@ -22,6 +22,14 @@ export default class App extends React.Component {
             longitudeDelta: 0.0421,
           }
         })
+        fetch('https://react-native-tutorial-98e02.firebaseio.com/places.json', {
+          method: 'POST',
+          body: JSON.stringify({
+            latitude: position.coords.latitude,
+            longitude: position.coords.longitude,
+          })
+        }).then(res => console.log(res))
+          .catch(err => console.log(err))
       },
       err => console.log(err),
       { enableHighAccuracy: true, timeout: 20000, maximumAge: 10000 }
